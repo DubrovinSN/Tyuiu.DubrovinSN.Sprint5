@@ -15,7 +15,7 @@ namespace Tyuiu.DubrovinSN.Sprint5.Task0.V26.Lib
             string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask0.txt";
             double f =  Math.Round(0.7 * Math.Pow(x, 3) + 1.52 * Math.Pow(x, 2), 2);
             File.WriteAllText(path, Convert.ToString(f));
-            return path;           
+            return path;   //        
         }
     }
 }
