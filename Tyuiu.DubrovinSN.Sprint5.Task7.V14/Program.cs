@@ -31,7 +31,7 @@ namespace Tyuiu.DubrovinSN.Sprint5.Task7.V14
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            string path = @"C:\Task7\DataSprint5\InPutDataFileTask7V14.txt";
+            string path = @"C:\DataSprint5\InPutDataFileTask7V14.txt";
             Console.WriteLine("Данные в: " + path);
             string pathSaveFile = $@"{Directory.GetCurrentDirectory()}\OutPutDataFileTask7V14.txt";
 
