@@ -28,7 +28,7 @@ namespace Tyuiu.DubrovinSN.Sprint5.Task5.V9
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            string path = @"C:\Task5\DataSprint5\InPutDataFileTask5V9.txt";
+            string path = @"C:\DataSprint5\InPutDataFileTask5V9.txt";
             Console.WriteLine("Данные в: " + path);
 
             Console.WriteLine("***************************************************************************");
