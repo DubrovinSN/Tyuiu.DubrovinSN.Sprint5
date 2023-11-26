@@ -13,14 +13,14 @@ namespace Tyuiu.DubrovinSN.Sprint5.Task6.V17.Test
         public void Calc()
         {
             DataService ds = new DataService();
-            string path = @"C:\Task6\DataSprint5\InPutDataFileTask6V17.txt";
+            string path = @"C:\DataSprint5\InPutDataFileTask6V17.txt";
             int res = ds.LoadFromDataFile(path);
             Assert.AreEqual(2, res);
         }
         [TestMethod]
         public void  CheckedFile()
         {
-            string path = @"C:\Task6\DataSprint5\InPutDataFileTask6V17.txt";
+            string path = @"C:\DataSprint5\InPutDataFileTask6V17.txt";
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
             Assert.AreEqual(true, fileExists);
