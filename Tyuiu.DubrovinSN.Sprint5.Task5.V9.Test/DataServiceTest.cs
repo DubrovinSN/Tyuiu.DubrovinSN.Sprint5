@@ -11,7 +11,7 @@ namespace Tyuiu.DubrovinSN.Sprint5.Task5.V9.Test
         [TestMethod]
         public void CheckedLoad()
         {
-            string path = @"C:\Task5\DataSprint5\InPutDataFileTask5V9.txt";
+            string path = @"C:\DataSprint5\InPutDataFileTask5V9.txt";
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
             Assert.AreEqual(true, fileExists);
